@@ -1,0 +1,46 @@
+William Hood
+Project 1 ATM System
+
+This is the readme for ITEC 324 Project 1 ATMSystem, while it is certainly not the most complex program, there are some headers for usage.
+
+How To Use
+
+The Main class is the start of the entire program, so to use the entire ATM, compile main.java and run the program from there with all the other classes in the same folder
+
+It will then ask for login information, there is one Operator account and ten Customer accounts to experiment and show differing cases in the program, their credentials are below.
+Operator: username: admin password: password
+Customers: username(s): User[1-10] (any number in the brackets) password: Password[1-10] (any number in the brackets)
+
+from then, it will log you in, and if the Operator, it will ask if you want to be in Customer or Operator mode, from then you will type "customer" for customer mode, or "operator" for operator mode
+
+In Operator mode, one will greeted with the options
+Add bills to ATM
+Remove bills from ATM
+Logout
+View number of bills
+to select these options, the inputs are as follows
+add bills
+remove bills
+logout
+view bills
+
+In Customer mode, one will be greeted with the following
+Deposit funds
+Withdrawal funds
+Transfer money
+View Account balance
+View Vault balance (requires operator)
+Logout
+to select these options, the inputs are as follows
+deposit
+withdrawal
+transfer
+view account
+view vault
+logout
+
+From these commands, some prompts will ask for Checking or Savings accounts, to input those type
+checking 
+savings
+
+Onwards, the following prompts will create a easy to use experience for the ATM
